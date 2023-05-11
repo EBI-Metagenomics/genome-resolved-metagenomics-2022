@@ -27,8 +27,14 @@ Open a Terminal.
 ```
 
 ```R
+> chooseCRANmirror(graphics=FALSE, ind=73)
 > devtools::install_github("beadyallen/MGnifyR")
 > install.packages("tidyverse")
+> install.packages("tidyjson")
+> install.packages("dplyr")
+> install.packages("data.table")
+> install.packages("BiocManager")
+> BiocManager::install(c("SIAMCAT","microbiomeMarker", "pathview", "KEGGREST", "ALDEx2"))
 > quit()
 ```
 
