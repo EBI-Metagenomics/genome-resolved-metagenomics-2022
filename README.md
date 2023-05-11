@@ -34,7 +34,7 @@ Open a Terminal.
 > install.packages("dplyr")
 > install.packages("data.table")
 > install.packages("BiocManager")
-> BiocManager::install(c("SIAMCAT","microbiomeMarker", "pathview", "KEGGREST", "ALDEx2"))
+> BiocManager::install(c("pathview", "KEGGREST", "ALDEx2"))
 > quit()
 ```
 
