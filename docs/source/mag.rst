@@ -93,7 +93,7 @@ To generate the ``input.fastq.sam.bam`` file yourself, you would run the followi
 
     # reformat the file with samtools:
     samtools view -Sbu input.fastq.sam > junk 
-    samtools sort junk input.fastq.sam.bam
+    samtools sort junk -o input.fastq.sam.bam
 
 
 **Running MetaBAT**
