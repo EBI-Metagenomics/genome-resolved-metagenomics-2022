@@ -206,7 +206,7 @@ To do this, run the following command:
 .. code-block:: bash
 
     cd /opt/data/
-    nw_rename checkm_answers/concatenated.tre assemblies/rename_list.tab > renamed.tree
+    nw_rename assemblies/checkm_output/storage/tree/concatenated.tre assemblies/rename_list.tab > renamed.tree
 
 **Visualising the phylogenetic tree**
 
